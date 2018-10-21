@@ -1,3 +1,12 @@
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
 .left-wrapper,
 .right-wrapper {
   padding-right: 0px;
@@ -6,15 +15,32 @@
 
 .banner-wrapper {
   position: fixed;
-  width: 25%;
+  width: 20%;
   height: 100%;
   padding: 20px;
   color: #fff;
   background-color: #7e0406;
 }
 
+.banner-wrapper img {
+  margin-top: 9em;
+}
+
+.banner-wrapper .title {
+  font-size: 1.05em;
+  letter-spacing: 3.5px;
+}
+.banner-wrapper span {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+.banner-wrapper .contacto {
+  font-size: 0.9em;
+}
+
 .second-wrapper {
-  padding: 40px;
+  padding: 20px;
 }
 
 .right-tab .nav-tabs {
@@ -65,11 +91,48 @@
   flex-wrap: inherit;
 }
 
-@media (max-width: 767px) {
+/* iconos redes sociales */
+ul.social-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+}
+
+ul.social-buttons li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-left: -40px;
+}
+
+ul.social-buttons li a.brandico-link {
+  background-color: #0077b5;
+}
+
+ul.social-buttons li a.brandico-github {
+  background-color: #333;
+}
+
+ul#anima li a {
+  transition: transform 0.2s linear;
+}
+
+ul#anima li:hover a {
+  transform: translateY(-10px);
+}
+
+@media (max-width: 900px) {
   .banner-wrapper {
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 370px;
     padding: 15px;
   }
 
@@ -80,6 +143,12 @@
 
   .banner-wrapper h2 span {
     font-size: 16px;
+  }
+  .banner-wrapper img {
+    margin-top: 1em;
+  }
+  .banner-wrapper .contacto {
+    display: inline-block;
   }
 
   .second-wrapper {
@@ -114,6 +183,13 @@
 
 /* media query for Mobile */
 @media (max-width: 480px) {
+  .banner-wrapper img {
+    margin-top: 0.5em;
+    width: 80px;
+  }
+  .banner-wrapper .contacto {
+    display: block;
+  }
   .right-tab .nav-tabs > li > a {
     font-size: 16px;
     margin-right: 0;
