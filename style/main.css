@@ -451,7 +451,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .blog-card .description {
-  padding: 0.3em 1rem;
+  padding: 0.8em;
   background: #fff;
   position: relative;
   z-index: 1;
@@ -503,7 +503,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   height: 5px;
   background: #7e0406;
-  width: 35px;
+  width: 90px;
   top: -0.75rem;
   border-radius: 3px;
 }
@@ -515,11 +515,11 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
   }
   .blog-card .meta {
-    flex-basis: 40%;
+    flex-basis: 35%;
     height: auto;
   }
   .blog-card .description {
-    flex-basis: 60%;
+    flex-basis: 65%;
   }
   .blog-card .description:before {
     transform: skewX(-3deg);
