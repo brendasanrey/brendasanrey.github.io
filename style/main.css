@@ -1,6 +1,12 @@
 a:hover {
   text-decoration: none;
 }
+
+li,
+ul {
+  list-style: none;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
