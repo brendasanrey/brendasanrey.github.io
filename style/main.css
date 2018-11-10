@@ -45,7 +45,7 @@ body {
 }
 
 .banner-wrapper .title {
-  font-size: 0.9em;
+  font-size: 1.2em;
   letter-spacing: 3.5px;
 }
 .banner-wrapper span {
@@ -80,6 +80,10 @@ body {
   text-transform: uppercase;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
+}
+.nav-tabs .nav-item {
+  width: 35%;
+  text-align: center;
 }
 
 .right-tab .nav-tabs > li.active > a,
@@ -196,7 +200,6 @@ ul#anima li:hover a {
 #timeline .timeline-item .timeline-icon i {
   position: relative;
   top: 12px;
-  left: 15px;
   color: #fff;
 }
 #timeline .timeline-item .timeline-content {
